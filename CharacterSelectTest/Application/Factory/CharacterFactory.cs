@@ -1,7 +1,7 @@
 using CharacterSelectTest.Domain.Character;
 using CharacterSelectTest.Domain.Enum;
 
-namespace CharacterSelectTest.Application.Character;
+namespace CharacterSelectTest.Application.Factory;
 
 public static class CharacterFactory
 {
