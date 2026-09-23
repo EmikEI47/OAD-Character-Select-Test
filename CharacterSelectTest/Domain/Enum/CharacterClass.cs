@@ -8,5 +8,4 @@ public enum CharacterClass
     Witcher = 4,
     Knight = 5,
     Elf = 6
-
 }

@@ -1,4 +1,7 @@
 ﻿using CharacterSelectTest.Domain.Character;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace CharacterSelectTest.Tests.Domain.Character;
 
 [TestClass]
 public class WitcherTest
@@ -16,10 +19,10 @@ public class WitcherTest
     {
         var witcher = new Witcher("Witcher");
 
-        Assert.AreEqual(95, witcher.Health);
-        Assert.AreEqual(9, witcher.Strength);
-        Assert.AreEqual(8, witcher.Intelligence);
-        Assert.AreEqual(15, witcher.Agility);
+        Assert.AreEqual(110, witcher.Health);
+        Assert.AreEqual(13, witcher.Strength);
+        Assert.AreEqual(10, witcher.Intelligence);
+        Assert.AreEqual(12, witcher.Agility);
     }
 
     [TestMethod]
@@ -27,7 +30,7 @@ public class WitcherTest
     {
         var witcher = new Witcher("Witcher");
 
-        Assert.AreEqual(45, witcher.Attack());
+        Assert.AreEqual(39, witcher.Attack());
     }
 
     [TestMethod]

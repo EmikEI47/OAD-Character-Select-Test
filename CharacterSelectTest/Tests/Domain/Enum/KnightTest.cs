@@ -1,4 +1,7 @@
 ﻿using CharacterSelectTest.Domain.Character;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace CharacterSelectTest.Tests.Domain.Character;
 
 [TestClass]
 public class KnightTest
